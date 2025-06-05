@@ -1,0 +1,1173 @@
+/* Fonte mais arredondada */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0a0a0a;
+    color: #ffffff;
+}
+
+header {
+    border: 2px solid #800080;
+    text-align: center;
+    padding: 20px;
+    background-color: #4b0082;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid #ba55d3;
+    padding: 10px;
+    background-color: #1e1e1e;
+}
+
+/* Borda arredondada nos botões */
+nav button {
+    background: #2e2e2e;
+    border: 1px solid #9370db;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #dda0dd;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.conteudo {
+    display: flex;
+    border-top: 4px solid #800080;
+    border-bottom: 4px solid #800080;
+    background-color: #121212;
+}
+
+/* Borda arredondada nas seções */
+.esquerda, .centro, .direita {
+    padding: 20px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.esquerda {
+    width: 25%;
+    border: 2px solid #9932cc;
+    background-color: #2b2b2b;
+}
+
+.centro {
+    width: 50%;
+    text-align: center;
+    border: 2px solid #9932cc;
+    background-color: #1f1f1f;
+}
+
+.direita {
+    width: 25%;
+    border: 2px solid #9400d3;
+    background-color: #2b2b2b;
+}
+
+/* Deixa as imagens e o vídeo com borda arredondada */
+img, iframe {
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #ba55d3;
+    background-color: #1a1a1a;
+}
+
+.titulo {
+    text-align: center;
+    background-color: #e6d6f4; /* fundo lavanda */
+    padding: 20px 0;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 20px; /* bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* sombra leve opcional */
+}
+
+.titulo-principal {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #000;
+    margin: 0;
+}
+
+.subtitulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    color: #000;
+    margin: 0;
+}
+
+/* Fundo rosa claro para o body */
+body {
+    background-color: #fbe4f1; /* Rosa meio esbranquiçado */
+}
+
+/* Espaçamento entre as seções */
+.conteudo {
+    gap: 30px; /* Espaço entre esquerda, centro e direita */
+    padding: 20px;
+}
+
+/* Tamanho uniforme das imagens */
+.esquerda img,
+.direita img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Rodapé estilizado igual ao banner */
+.rodape-estilizado {
+    background-color: #e6d6f4; /* mesmo fundo da .titulo */
+    padding: 20px;
+    margin: 40px auto 0 auto;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.rodape-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #000;
+    margin: 0;
+}
+
+.rodape-subtitulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    color: #000;
+    margin: 10px 0 0 0;
+}
+
+/* Estilo lavanda igual ao banner para os botões do menu */
+nav button {
+    background-color: #e6d6f4; /* lavanda claro */
+    color: #000; /* texto preto */
+    border: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+nav button:hover {
+    background-color: #d8bff0;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+nav a:visited {
+    color: #dda0dd;
+    text-decoration: none;
+}
+
+     /* Adicionando um fundo suave e espaçamentos entre as seções */
+     main.conteudo {
+        display: flex;
+        gap: 30px;
+        background-color: #f9e6f9; /* rosa esbranquiçado */
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(75, 0, 130, 0.2);
+    }
+    section.esquerda, section.centro, section.direita {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        flex: 1;
+        color: #3a005a;
+        text-align: center;
+    }
+    section.esquerda img,
+    section.direita img,
+    section.centro iframe {
+        border-radius: 15px;
+        max-width: 100%;
+        height: auto;
+        box-shadow: 0 6px 10px rgba(75, 0, 130, 0.15);
+    }
+    /* Rodapé estilizado */
+    footer .rodape-estilizado {
+        background-color: #e6d6f4;
+        padding: 25px 0;
+        border-radius: 20px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        text-align: center;
+        margin-top: 40px;
+    }
+    .rodape-titulo {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 40px;
+        color: #4b0082;
+        margin: 0;
+    }
+    .rodape-subtitulo {
+        font-family: 'Dancing Script', cursive;
+        font-size: 32px;
+        color: #4b0082;
+        margin: 5px 0 0 0;
+    }
+
+         /* Adicionando um fundo suave e espaçamentos entre as seções */
+         main.conteudo {
+            display: flex;
+            gap: 30px;
+            background-color: #f9e6f9; /* rosa esbranquiçado */
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(75, 0, 130, 0.2);
+        }
+        section.esquerda, section.centro, section.direita {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            color: #3a005a;
+            text-align: center;
+        }
+        section.esquerda img,
+        section.direita img,
+        section.centro iframe {
+            border-radius: 15px;
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 6px 10px rgba(75, 0, 130, 0.15);
+        }
+        /* Rodapé estilizado */
+        footer .rodape-estilizado {
+            background-color: #e6d6f4;
+            padding: 25px 0;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            margin-top: 40px;
+        }
+        .rodape-titulo {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            font-size: 40px;
+            color: #4b0082;
+            margin: 0;
+        }
+        .rodape-subtitulo {
+            font-family: 'Dancing Script', cursive;
+            font-size: 32px;
+            color: #4b0082;
+            margin: 5px 0 0 0;
+        }
+
+        /* Fonte mais arredondada */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0a0a0a;
+    color: #ffffff;
+}
+
+header {
+    border: 2px solid #800080;
+    text-align: center;
+    padding: 20px;
+    background-color: #4b0082;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid #ba55d3;
+    padding: 10px;
+    background-color: #1e1e1e;
+}
+
+/* Borda arredondada nos botões */
+nav button {
+    background: #2e2e2e;
+    border: 1px solid #9370db;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #dda0dd;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.conteudo {
+    display: flex;
+    border-top: 4px solid #800080;
+    border-bottom: 4px solid #800080;
+    background-color: #121212;
+}
+
+/* Borda arredondada nas seções */
+.esquerda, .centro, .direita {
+    padding: 20px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.esquerda {
+    width: 25%;
+    border: 2px solid #9932cc;
+    background-color: #2b2b2b;
+}
+
+.centro {
+    width: 50%;
+    text-align: center;
+    border: 2px solid #9932cc;
+    background-color: #1f1f1f;
+}
+
+.direita {
+    width: 25%;
+    border: 2px solid #9400d3;
+    background-color: #2b2b2b;
+}
+
+/* Deixa as imagens e o vídeo com borda arredondada */
+img, iframe {
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #ba55d3;
+    background-color: #1a1a1a;
+}
+
+/* 🌸 Importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@500;700;800&display=swap');
+
+/* 🎨 Paleta de Cores */
+:root {
+    --rosa-claro: #ffe9f3;
+    --rosa-medio: #f8b7c7;
+    --rosa-escuro: #d98ca7;
+    --branco: #fff;
+    --cinza-claro: #fafafa;
+    --cinza-escuro: #555;
+}
+
+/* 🎀 Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--rosa-claro);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cinza-escuro);
+    overflow-x: hidden;
+}
+
+/* 🌸 Cabeçalho */
+header {
+    background: linear-gradient(90deg, var(--rosa-medio), var(--rosa-escuro));
+    padding: 40px 0;
+    text-align: center;
+    animation: fadeInDown 1.5s ease;
+}
+
+.titulo-principal {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    color: var(--branco);
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    color: var(--branco);
+    margin-top: 8px;
+}
+
+/* 🍰 Menu */
+nav.menu {
+    background-color: var(--branco);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 10px 0;
+    animation: fadeIn 2s ease;
+}
+
+nav.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav.menu ul li a {
+    text-decoration: none;
+    color: var(--rosa-escuro);
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+nav.menu ul li a:hover {
+    background-color: var(--rosa-escuro);
+    color: var(--branco);
+}
+
+/* ✨ Cards */
+main.conteudo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+    animation: fadeInUp 1.8s ease;
+}
+
+.card {
+    background-color: var(--branco);
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+    font-family: 'Dancing Script', cursive;
+    color: var(--rosa-escuro);
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* 🎥 Video responsivo */
+iframe {
+    border-radius: 12px;
+}
+
+/* 🍰 Rodapé */
+footer {
+    background-color: var(--rosa-medio);
+    padding: 30px 0;
+    text-align: center;
+    animation: fadeInUp 2s ease;
+}
+
+.rodape-titulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: var(--branco);
+}
+
+.rodape-subtitulo {
+    color: var(--branco);
+    font-size: 1rem;
+    margin-top: 8px;
+}
+
+/* 🌟 Animações */
+@keyframes fadeInDown {
+    from {opacity: 0; transform: translateY(-40px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+@keyframes fadeInUp {
+    from {opacity: 0; transform: translateY(40px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* 📱 Responsivo */
+@media (max-width: 900px) {
+    main.conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav.menu ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* 🌸 Importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@500;700;800&display=swap');
+
+/* 🎨 Paleta de Cores */
+:root {
+    --rosa-claro: #ffe9f3;
+    --rosa-medio: #f8b7c7;
+    --rosa-escuro: #d98ca7;
+    --branco: #fff;
+    --cinza-claro: #fafafa;
+    --cinza-escuro: #555;
+}
+
+/* 🎀 Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--rosa-claro);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cinza-escuro);
+    overflow-x: hidden;
+}
+
+/* 🌸 Cabeçalho */
+header {
+    background: linear-gradient(90deg, var(--rosa-medio), var(--rosa-escuro));
+    padding: 40px 0;
+    text-align: center;
+    animation: fadeInDown 1.5s ease;
+}
+
+.titulo-principal {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    color: var(--branco);
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    color: var(--branco);
+    margin-top: 8px;
+}
+
+/* 🍰 Menu */
+nav.menu {
+    background-color: var(--branco);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 10px 0;
+    animation: fadeIn 2s ease;
+}
+
+nav.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav.menu ul li a {
+    text-decoration: none;
+    color: var(--rosa-escuro);
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+nav.menu ul li a:hover {
+    background-color: var(--rosa-escuro);
+    color: var(--branco);
+}
+
+/* ✨ Cards */
+main.conteudo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+    animation: fadeInUp 1.8s ease;
+}
+
+.card {
+    background-color: var(--branco);
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+    font-family: 'Dancing Script', cursive;
+    color: var(--rosa-escuro);
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* 🍰 Rodapé */
+footer {
+    background-color: var(--rosa-medio);
+    padding: 30px 0;
+    text-align: center;
+    animation: fadeInUp 2s ease;
+}
+
+.rodape-titulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: var(--branco);
+}
+
+.rodape-subtitulo {
+    color: var(--branco);
+    font-size: 1rem;
+    margin-top: 8px;
+}
+
+/* 🌟 Animações */
+@keyframes fadeInDown {
+    from {opacity: 0; transform: translateY(-40px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+@keyframes fadeInUp {
+    from {opacity: 0; transform: translateY(40px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* 📱 Responsivo */
+@media (max-width: 900px) {
+    main.conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav.menu ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* 🌸 Importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@800&display=swap');
+
+/* 🎀 Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 🌷 Paleta de cores */
+:root {
+    --rosa-claro: #ffe6f9;
+    --lilas-claro: #fbeeff;
+    --roxo-principal: #a05fc1;
+    --roxo-escuro: #4b0082;
+    --cinza-escuro: #2f2f2f;
+    --branco: #fff;
+    --preto: #000;
+}
+
+/* 🎀 Body */
+body {
+    background: var(--lilas-claro);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--preto);
+    transition: background 0.5s ease;
+}
+
+/* ✨ Cabeçalho */
+header {
+    background: linear-gradient(to right, var(--rosa-claro), var(--lilas-claro));
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    animation: fadeInDown 1s ease;
+}
+
+header .titulo-principal {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: var(--roxo-escuro);
+}
+
+header .subtitulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    color: var(--roxo-principal);
+}
+
+/* 🍰 Menu de navegação */
+nav.menu {
+    background-color: var(--roxo-principal);
+    border-radius: 0 0 30px 30px;
+    padding: 15px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    animation: fadeIn 1.2s ease;
+}
+
+nav.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav.menu ul li a {
+    color: var(--branco);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: var(--roxo-escuro);
+    transition: all 0.4s ease;
+    font-weight: bold;
+}
+
+nav.menu ul li a:hover {
+    background-color: var(--rosa-claro);
+    color: var(--roxo-escuro);
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* ✨ Cards de conteúdo */
+.conteudo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInUp 1s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+/* 🌸 Estilos específicos dos cards */
+.esquerda {
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+}
+
+.centro {
+    background: linear-gradient(to bottom, var(--rosa-claro), var(--lilas-claro));
+    color: var(--preto);
+}
+
+.direita {
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+}
+
+/* 🖋️ Títulos nos cards */
+.card h2 {
+    font-size: 26px;
+    color: var(--roxo-principal);
+    margin-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Links dentro dos cards */
+.card a {
+    text-decoration: none;
+    color: var(--rosa-claro);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.card a:hover {
+    color: var(--branco);
+}
+
+/* 💖 Rodapé */
+footer {
+    background-color: var(--rosa-claro);
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
+    animation: fadeInUp 1.5s ease;
+}
+
+footer .rodape-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: var(--roxo-escuro);
+}
+
+footer .rodape-subtitulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    color: var(--roxo-principal);
+    margin-top: 8px;
+}
+
+/* ✨ Animações */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeInDown {
+    from {opacity: 0; transform: translateY(-30px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+@keyframes fadeInUp {
+    from {opacity: 0; transform: translateY(30px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+/* 🎀 Responsivo */
+@media (max-width: 768px) {
+    .conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav.menu ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #fff0f5, #ffe6f9);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    animation: fadeIn 1.2s ease-in;
+}
+
+/* Header */
+header {
+    background-color: #fce4ec;
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    animation: slideDown 1s ease forwards;
+}
+
+.titulo-principal {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #800080;
+}
+
+.subtitulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    color: #d63384;
+    margin-top: 8px;
+}
+
+/* Menu */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    background-color: #ffe6f9;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+nav button {
+    background-color: #d8b2e1;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav button:hover {
+    background-color: #c589d9;
+    transform: translateY(-3px);
+}
+
+nav a {
+    text-decoration: none;
+    color: #4b0082;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Conteúdo */
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 25px;
+    padding: 40px;
+}
+
+.esquerda, .direita {
+    background-color: #2f2f2f;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    animation: fadeInUp 1s ease forwards;
+}
+
+.centro {
+    background: linear-gradient(to bottom, #ffe6f9, #fbeeff);
+    color: #000;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    animation: fadeInUp 1s ease forwards;
+}
+
+.centro h2 {
+    color: #4b0082;
+    margin-bottom: 15px;
+}
+
+/* Formulário */
+.formulario-contato label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 600;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.formulario-contato button {
+    background-color: #800080;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.formulario-contato button:hover {
+    background-color: #9932cc;
+    transform: translateY(-3px);
+}
+
+/* Mensagem de erro */
+.erro {
+    color: red;
+    font-size: 12px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    background-color: #e6d6f4;
+    color: #000;
+    padding: 25px 0;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.rodape-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    margin-bottom: 8px;
+}
+
+.rodape-subtitulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Responsivo */
+@media (max-width: 1000px) {
+    .conteudo {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Estilo para imagens e vídeo — uniforme, delicado e fofo */
+.card img {
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.03);
+}
+
+/* Estilo para o vídeo ficar proporcional às imagens */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 proporção */
+    border-radius: 25px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+/* Card padrão */
+.card {
+    background: linear-gradient(to bottom, #fff0f5, #fce4ec);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    color: #800080;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card p {
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+    margin-top: 10px;
+}
+
+/* Conteúdo Grid */
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 30px;
+    padding: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 1000px) {
+    .conteudo {
+        grid-template-columns: 1fr;
+    }
+}
+

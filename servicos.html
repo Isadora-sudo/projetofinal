@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Serviços - Nossa Cozinha</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to bottom, #f9eaff, #e9d2ff);
+            margin: 0;
+            padding: 0;
+            color: #2c003e;
+        }
+
+        header {
+            background-color: #f3e6ff;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: #4b0082;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #5a3a6f;
+        }
+
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+
+        nav button {
+            background-color: #800080;
+            border: none;
+            border-radius: 12px;
+            padding: 10px 20px;
+            margin: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        nav button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav button a:hover {
+            text-decoration: underline;
+        }
+
+        nav button:hover {
+            background-color: #9932cc;
+        }
+
+        .servicos-wrapper {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background-color: #fceeff;
+            border-radius: 20px;
+            margin: 40px auto;
+            width: 90%;
+            box-shadow: 0 0 20px rgba(139, 0, 139, 0.2);
+        }
+
+        .card-servico {
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            color: #2c003e;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+        }
+
+        .card-servico:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(139, 0, 139, 0.3);
+        }
+
+        .card-servico h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .card-servico p {
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+
+        .card-servico ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            margin: 0 auto 10px;
+            max-width: 250px;
+        }
+
+        .card-servico li::before {
+            content: "🍽️ ";
+        }
+
+        .decoracao {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            font-size: 24px;
+            opacity: 0.3;
+        }
+
+        footer {
+            background-color: #f3e6ff;
+            color: #4b0082;
+            padding: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>✨ Nossos Serviços</h1>
+        <p>Mais do que receitas — oferecemos experiências completas!</p>
+    </header>
+
+    <nav>
+        <button><a href="index.html">Home</a></button>
+        <button><a href="empresa.html">A Empresa</a></button>
+        <button><a href="servicos.html">Serviços</a></button>
+        <button><a href="contatos.html">Contatos</a></button>
+        <button><a href="faleconosco.html">Fale Conosco</a></button>
+    </nav>
+
+    <section class="servicos-wrapper">
+        <div class="card-servico">
+            <div class="decoracao">🍰</div>
+            <h3>🍰 Bolo de Cenoura com Cobertura</h3>
+            <p>Clássico e irresistível para adoçar seus dias.</p>
+            <ul>
+                <li>3 cenouras médias</li>
+                <li>4 ovos</li>
+                <li>2 xícaras de açúcar</li>
+                <li>1/2 xícara de óleo</li>
+                <li>2 xícaras de farinha de trigo</li>
+            </ul>
+        </div>
+
+        <div class="card-servico">
+            <div class="decoracao">☕</div>
+            <h3>☕ Café Gourmet</h3>
+            <p>Deguste uma seleção especial de cafés premium.</p>
+            <ul>
+                <li>Café arábica</li>
+                <li>Notas frutadas</li>
+                <li>Moagem na hora</li>
+            </ul>
+        </div>
+
+        <div class="card-servico">
+            <div class="decoracao">🥗</div>
+            <h3>🥗 Salada Mediterrânea</h3>
+            <p>Frescor e leveza em cada garfada.</p>
+            <ul>
+                <li>Mix de folhas</li>
+                <li>Queijo feta</li>
+                <li>Azeitonas pretas</li>
+            </ul>
+        </div>
+
+        <div class="card-servico">
+            <div class="decoracao">🍝</div>
+            <h3>🍝 Massa Artesanal</h3>
+            <p>Feita à mão com ingredientes frescos e amor.</p>
+            <ul>
+                <li>Fettuccine</li>
+                <li>Sugo de tomate rústico</li>
+                <li>Manjericão fresco</li>
+            </ul>
+        </div>
+
+        <div class="card-servico">
+            <div class="decoracao">🍨</div>
+            <h3>🍨 Sobremesa Gelada</h3>
+            <p>Refrescante e sofisticada para dias especiais.</p>
+            <ul>
+                <li>Sorvete artesanal</li>
+                <li>Caldas variadas</li>
+                <li>Frutas da estação</li>
+            </ul>
+        </div>
+
+        <div class="card-servico">
+            <div class="decoracao">✨</div>
+            <h3>✨ Workshop Presencial</h3>
+            <p>Participe das nossas aulas exclusivas e aprenda com chefs renomados.</p>
+            <ul>
+                <li>Apostila completa</li>
+                <li>Degustação no final</li>
+                <li>Certificado de participação</li>
+            </ul>
+        </div>
+
+        <!-- Novos cards adicionados -->
+        <div class="card-servico">
+            <div class="decoracao">🧁</div>
+            <h3>🧁 Cupcake de Baunilha</h3>
+            <p>Perfeitos para festas e encontros especiais.</p>
+            <ul>
+                <li>Massa leve de baunilha</li>
+                <li>Recheio de doce de leite</li>
+                <li>Cobertura com chantilly</li>
+            </ul>
+        </div>
+
+        <div class="card-servico">
+            <div class="decoracao">🍕</div>
+            <h3>🍕 Pizza Caseira</h3>
+            <p>Feita no capricho com ingredientes frescos.</p>
+            <ul>
+                <li>Molho de tomate artesanal</li>
+                <li>Queijo mussarela</li>
+                <li>Orégano e azeite de oliva</li>
+            </ul>
+        </div>
+
+        <div class="card-servico">
+            <div class="decoracao">🥧</div>
+            <h3>🥧 Torta de Limão</h3>
+            <p>Equilíbrio entre o doce e o cítrico.</p>
+            <ul>
+                <li>Base crocante</li>
+                <li>Recheio cremoso de limão</li>
+                <li>Merengue dourado</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <h2 class="titulo-principal">Nossa Cozinha</h2>
+        <p class="subtitulo">Com amor e sabor, Nossa Cozinha te ajuda a brilhar na cozinha!</p>
+    </footer>
+
+</body>
+</html>
+
