@@ -1171,3 +1171,16 @@ footer {
     }
 }
 
+input.error, textarea.error {
+    border: 2px solid #ff7f7f;
+    background-color: #ffe6e6;
+}
+
+span.erro {
+    color: #ff4d4d;
+    font-size: 12px;
+    font-family: 'Dancing Script', cursive;
+    display: block;
+    margin-top: -6px;
+    margin-bottom: 8px;
+}
