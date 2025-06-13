@@ -5,6 +5,17 @@
     <title>Fale Conosco - Nossa Cozinha</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@800&family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        .erro {
+            color: red;
+            font-size: 0.8em;
+            display: block;
+            margin-top: 5px;
+        }
+        .error {
+            border: 1px solid red !important;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
@@ -61,59 +72,7 @@
         <h2 class="rodape-titulo">Nossa Cozinha</h2>
         <p class="rodape-subtitulo">Fale com quem entende de sabor e carinho! 🌸</p>
     </footer>
-    <script>
-    const form = document.querySelector('.formulario-contato');
-    const nome = document.getElementById('nome');
-    const email = document.getElementById('email');
-    const telefone = document.getElementById('telefone');
-    const mensagem = document.getElementById('mensagem');
 
-    form.addEventListener('submit', function(e) {
-        e.preventDefault();
-
-        let valid = true;
-
-        // Resetar erros
-        document.querySelectorAll('.erro').forEach(el => el.textContent = '');
-        document.querySelectorAll('input, textarea').forEach(el => el.classList.remove('error'));
-
-        // Validação Nome
-        if(nome.value.trim() === '') {
-            document.getElementById('nome-error').textContent = 'Por favor, preencha seu nome.';
-            nome.classList.add('error');
-            valid = false;
-        }
-
-        // Validação Email
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if(!emailRegex.test(email.value.trim())) {
-            document.getElementById('email-error').textContent = 'Digite um e-mail válido.';
-            email.classList.add('error');
-            valid = false;
-        }
-
-        // Validação Telefone
-        const telRegex = /^\(?\d{2}\)?[\s-]?\d{4,5}-?\d{4}$/;
-        if(!telRegex.test(telefone.value.trim())) {
-            document.getElementById('telefone-error').textContent = 'Informe um telefone válido (ex: (63) 99136-3790).';
-            telefone.classList.add('error');
-            valid = false;
-        }
-
-        // Validação Mensagem
-        if(mensagem.value.trim().length < 5) {
-            document.getElementById('mensagem-error').textContent = 'Por favor, escreva sua mensagem.';
-            mensagem.classList.add('error');
-            valid = false;
-        }
-
-        // Se tudo estiver válido
-        if(valid) {
-            alert('✨ Mensagem enviada com sucesso! ✨');
-            form.reset();
-        }
-    });
-</script>
-
+    <script src="validacaoFaleConosco.js"></script>
 </body>
 </html>
