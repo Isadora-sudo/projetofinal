@@ -1360,5 +1360,111 @@ nav button.neon-effect::before {
     transform: rotate(30deg) translate(30%, 30%);
   }
 }
+.reparticoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background-color: #fff0fb;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 12px rgba(128, 0, 128, 0.1);
+    flex: 1 1 300px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.card h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+    color: #800080;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+@media (max-width: 900px) {
+    .reparticoes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 90%;
+    }
+}
+.titulo-principal {
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    color: #ffb3ff;
+    text-shadow:
+        0 0 5px #ff99ff,
+        0 0 10px #ff66ff,
+        0 0 20px #cc33cc,
+        0 0 40px #ff66ff;
+    animation: brilhoNeon 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes brilhoNeon {
+    from {
+        text-shadow:
+            0 0 5px #ff99ff,
+            0 0 10px #ff66ff,
+            0 0 20px #cc33cc,
+            0 0 40px #ff66ff;
+    }
+    to {
+        text-shadow:
+            0 0 10px #ffccff,
+            0 0 20px #ff66ff,
+            0 0 30px #ff33cc,
+            0 0 50px #ff66ff;
+    }
+}
+.frase-home {
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    color: #aa00aa;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff0fb;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 192, 255, 0.3);
+    animation: aparecer 1s ease;
+}
+
+@keyframes aparecer {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 
 /* ========== FIM DOS EFEITOS NEON ADICIONAIS ========== */

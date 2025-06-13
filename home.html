@@ -1,47 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Home - ISA RECEITAS</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Isa Receitas ✨</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .frase-home {
+            font-family: 'Dancing Script', cursive;
+            font-size: 22px;
+            color: #aa00aa;
+            text-align: center;
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #fff0fb;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(255, 192, 255, 0.3);
+            animation: aparecer 1s ease;
+        }
+
+        @keyframes aparecer {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>🍰 Nossa Cozinha</h1>
-    <p>As receitas mais gostosas direto da nossa cozinha para a sua!</p>
-  </header>
+    <header>
+        <div class="cabecalho">
+            <h1 class="titulo-principal">🌸 Nossa Cozinha</h1>
+            <p class="subtitulo">Receitas encantadoras by <strong>Isadora</strong></p>
+        </div>
+    </header>
 
-  <nav>
-    <button><a href="home.html">Home</a></button>
-    <button><a href="empresa.html">A Empresa</a></button>
-    <button><a href="servicos.html">Serviços</a></button>
-    <button><a href="contatos.html">Contatos</a></button>
-    <button><a href="faleconosco.html">Fale Conosco</a></button>
-  </nav>
+    <nav class="menu">
+        <ul>
+            <li><a href="home.html">🏠 Home</a></li>
+            <li><a href="empresa.html">👩‍🍳 A Empresa</a></li>
+            <li><a href="servicos.html">🍰 Serviços</a></li>
+            <li><a href="contatos.html">📞 Contatos</a></li>
+            <li><a href="faleconosco.html">💌 Fale Conosco</a></li>
+        </ul>
+    </nav>
 
-  <main>
-    <h2>👩‍🍳 Bem-vindo à NOSSA COZINHA!</h2>
-    <p>Descubra um mundo de sabores com nossas receitas fáceis, vídeos explicativos e muito carinho em cada passo.</p>
+    <!-- Frase inicial -->
+    <p class="frase-home">"Receitas que aquecem o coração e adoçam a alma."</p>
 
-    <div class="blocos-home">
-      <div class="card-home">
-        <h3>📹 Vídeos Tutoriais</h3>
-        <p>Aprenda passo a passo com vídeos didáticos e dicas de ouro.</p>
-      </div>
-      <div class="card-home">
-        <h3>🧾 Receitas Testadas</h3>
-        <p>Receitas aprovadas por quem ama cozinhar. Tudo explicado de forma clara.</p>
-      </div>
-      <div class="card-home">
-        <h3>🌟 Destaques da Semana</h3>
-        <p>Veja as receitas mais acessadas e ganhe inspiração para o dia a dia!</p>
-      </div>
-    </div>
-  </main>
+    <main class="conteudo">
+        <section class="card esquerda">
+            <h2>Receitas para Iniciantes 🍳</h2>
+            <img src="receitas.webp" alt="Prato delicioso e colorido">
+            <p>Receitinhas simples, rápidas e cheias de amor para você que está começando na cozinha.</p>
+        </section>
 
-  <footer>
-    <h2>Nossa Cozinha</h2>
-    <p>Com amor e sabor, Nossa cozinha te ajuda a brilhar na cozinha!!!!!!!!</p>
-  </footer>
+        <!-- Frase entre seções -->
+        <p class="frase-home">"Cada receita é um carinho em forma de sabor."</p>
+
+        <section class="card centro">
+            <h2>Aulas em Vídeo 🎥</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/w8cIuDcJf_I" 
+                title="Vídeo de culinária" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p>Assista tutoriais fofos, repletos de dicas incríveis, truques e muito carinho da Isa!</p>
+        </section>
+
+        <!-- Frase entre seções -->
+        <p class="frase-home">"Na cozinha da Isa, o amor é o principal ingrediente."</p>
+
+        <section class="card direita">
+            <h2>Receitas Avançadas 🥘</h2>
+            <img src="caderno.png" alt="Caderno de receitas artesanal">
+            <p>Explore pratos sofisticados que encantam e surpreendem quem você ama! 💖</p>
+        </section>
+    </main>
+
+    <!-- Frase final -->
+    <p class="frase-home">"Cozinhar é transformar ingredientes simples em momentos mágicos."</p>
+
+    <footer>
+        <div class="rodape">
+            <h2 class="rodape-titulo">🌸 Nossa Cozinha</h2>
+            <p class="rodape-subtitulo">Cozinhando com amor, sabor e um toque de magia ✨</p>
+        </div>
+    </footer>
 </body>
 </html>
